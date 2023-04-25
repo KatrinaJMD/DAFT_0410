@@ -59,7 +59,7 @@ ORDER BY profits DESC
 LIMIT 3;
 
 
-# Challenge 2 (TEMPORARY TABLES)- Alternative Solution
+# Challenge 2 (TEMPORARY TABLES) - Alternative Solution
 
 # STEP 1: Calculate royalty of each sale for each author and the advance for each author and publication
 DROP TEMPORARY TABLE IF EXISTS TempStep1;
