@@ -1,0 +1,7 @@
+[LAB 24] - Workbook Link
+
+PART 1
+https://public.tableau.com/views/LAB24-Workbook/Defensivestatistics?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+
+PART 2
+https://public.tableau.com/views/LAB24-WorkbookPart2/LAB24-Dashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
