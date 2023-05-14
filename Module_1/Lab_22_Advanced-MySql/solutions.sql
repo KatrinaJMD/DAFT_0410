@@ -2,6 +2,19 @@ USE publications;
 
 # Challenge 1 (SUBQUERIES) - Most Profiting Authors
 
+# Authors and their books...
+select a.au_id, a.au_fname, a.au_lname, t.title, t.price
+from authors a
+inner join titleauthor ta using (au_id) -- on a.au_id = ta.au_id
+inner join titles t using (title_id);
+
+
+# Authors and their books 2....
+select a.au_id, a.au_fname, a.au_lname, t.title, t.price
+from authors a
+left join titleauthor ta using (au_id) -- on a.au_id = ta.au_id
+left join titles t using (title_id);
+
 # STEP 1: Calculate royalty of each sale for each author and the advance for each author and publication
 SELECT 
     t.title_id,
